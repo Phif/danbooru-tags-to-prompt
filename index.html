@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script src="./js/app.js" defer></script>
+
+    <title>Danbooru tags to prompt</title>
+</head>
+<body>
+    <div class="container">
+        <h1>DANBOORU TAGS to PROMPT</h1>
+        <div id="input-column">
+            <div id="input-title" class="text-title">
+                <label for="input"><h2>Input</h2></label>
+                <span class="material-symbols-rounded tooltip" id="input-paste" title="Click to paste from clipboard">
+                    content_paste
+                    <span class="tooltiptext">big tooltip text wao</span>
+                </span>
+            </div>
+            <textarea id="input" name="input" rows="20" cols="30" autofocus 
+            placeholder="Paste your Danbooru tags here"></textarea>
+        </div>
+        <div id="output-column">
+            <div id="output-title" class="text-title">
+                <label for="output"><h2>Output</h2></label>
+                <span class="material-symbols-rounded" id="output-copy" title="Click to copy all tags">content_copy</span>
+            </div>
+            <textarea id="output" name="output" rows="4" cols="100" placeholder="Your prompt will appear here"></textarea></body>
+        </div>
+    </div>
+</html>
