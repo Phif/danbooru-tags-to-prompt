@@ -19,14 +19,16 @@
     <title>Danbooru tags to prompt</title>
 </head>
 <body>
+    <!-- <h1>DANBOORU TAGS to PROMPT</h1> -->
     <div class="container">
-        <h1>DANBOORU TAGS to PROMPT</h1>
+        <h2><u>Dan</u>booru tags -> Prompt</h2>
+        <span>Removes every '?' and numbers from the tags, and adds a comma after each tag.</span>
         <div id="input-column">
             <div id="input-title" class="text-title">
                 <label for="input"><h2>Input</h2></label>
                 <span class="material-symbols-rounded tooltip" id="input-paste" title="Click to paste from clipboard">content_paste</span>
             </div>
-            <textarea id="input" name="input" rows="20" cols="30" autofocus placeholder=
+            <textarea id="input" name="input" rows="20" cols="50" autofocus placeholder=
 "Paste your Danbooru tags here.
 For example:
 
@@ -41,7 +43,31 @@ For example:
                 <label for="output"><h2>Output</h2></label>
                 <span class="material-symbols-rounded" id="output-copy" title="Click to copy all tags">content_copy</span>
             </div>
-            <textarea id="output" name="output" rows="4" cols="100" placeholder="Your prompt will appear here"></textarea></body>
+            <textarea id="output" name="output" rows="4" cols="50" placeholder="Your prompt will appear here"></textarea></body>
         </div>
+    </div>
+
+    <div class="container">
+        <h2><u>Deep</u>booru tags -> Prompt</h2>
+        <span>Removes every underscores from the tags.</span>
+        <div>
+            <div class="text-title">
+                <label for="input2"><h2>Input</h2></label>
+                <span class="material-symbols-rounded tooltip" id="input-paste2" title="Click to paste from clipboard">content_paste</span>
+            </div>
+            <textarea id="input2" name="input2" rows="20" cols="50" placeholder=
+"Paste your Deepbooru tags here.
+For example:
+
+black_hair, red_eyes, holding_sword, ..."></textarea>
+        </div>
+        <div>
+            <div class="text-title">
+                <label for="output2"><h2>Output</h2></label>
+                <span class="material-symbols-rounded" id="output-copy2" title="Click to copy all tags">content_copy</span>
+            </div>
+            <textarea id="output2" name="output2" rows="4" cols="50" placeholder="Your prompt will appear here"></textarea></body>
+        </div>
+    </div>
     </div>
 </html>

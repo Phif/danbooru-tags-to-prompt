@@ -6,6 +6,9 @@
 body {
     background-color: #1e1e2c;
     color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
 }
 
 .container {
@@ -15,7 +18,7 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    gap: 5em;
+    gap: 1em;
 }
 
 .text-title {
