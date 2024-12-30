@@ -1,28 +1,29 @@
-# danbooru-tags-to-prompt
-<b>Little app that allows you to paste the taglist from Danbooru to get a usable text string for prompting into a txt-to-img AI.
+# vue-project
 
-Go to the page: https://phif.github.io/danbooru-tags-to-prompt/ <br/>
-Then simply copy the danbooru tags you want to turn into a prompt.
+This template should help get you started developing with Vue 3 in Vite.
 
-For example, paste the tags like this: </b> <br/>
-<i>
-? 1girl 4.3M<br/>
-? artist name 208k <br/>
-? bangs 1.6M <br/>
-? black footwear 155k <br/>
-? book 100k <br/>
-? brown hair 1.1M <br/>
-? collar 130k <br/>
-? desk 27k <br/>
-? dress 862k <br/>
-? earrings 341k <br/>
-? flower 424k <br/>
-? green eyes 599k <br/>
-? hair between eyes 717k <br/>
-? hair flower 189k <br/>
-? hair ornament 968k <br/>
-</i>
+## Recommended IDE Setup
 
-<b>And you'll get a ready to use prompt for your text-to-image AI prompt, like this: </b><br/>
-<i>1girl, artist name, bangs, black footwear, book, brown hair, collar, desk, dress, earrings, 
-flower, green eyes, hair between eyes, hair flower, hair ornament</i>
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vite.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
