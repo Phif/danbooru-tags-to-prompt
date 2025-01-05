@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/danbooru-tags-to-prompt/',
   plugins: [
     vue(),
     vueDevTools(),
